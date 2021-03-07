@@ -1,24 +1,38 @@
 .menu{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(35, 121, 9);
     font-size: 20px;
+    padding: 30px;
     font-family: sans-serif;
     font-weight: 400;
-    color: white;
+    color: #ffffff;
 }
 .grid{
+    border : 2px solid #000000;
     display : flex;
     flex-wrap: wrap;
+    margin: 25px;
     justify-content: space-evenly;
 }
-.body{
-    background-color: rgb(255, 255, 255)
+.bodyColor{
+    background-color: rgb(0, 183, 255);
+    margin: 0px;
+
 }
-/* .header{
-    display:flex
-} */
+.header{
+    color: #1f9b0b;
+}
 .grid img{
-    border : 2px rgb(0, 0, 0);
-    border-radius : 50px
+    border : 2px solid #000000;
+    border-radius : 50px;
+}
+.item{
+    border-radius : 20px;
+    background-color: rgb(255, 0, 0);
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+
 }
